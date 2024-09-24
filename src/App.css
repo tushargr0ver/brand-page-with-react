@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: "Poppins", system-ui;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+}
+
+.logo{
+    margin-left: 15vh;
+}
+
+ul{
+    font-weight: 500;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    
+}
+
+li{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.login{
+    color: white;
+    background-color: #d60a25;
+    padding: 3px 11px 3px 11px;
+    margin-right: 15vh;
+    margin-left: 12vh;
+    font-weight: bold;
+}
+
+.links{
+    text-decoration: none;
+    color: inherit;         
+}
+
+.main{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 5%;   
+}
+
+.big-text{
+    font-size: 10vh;
+    font-weight: 800;
+}
+
+.small-text{
+    padding-top: 3vh;
+    text-align: left;
+    padding-right: 30vh;
+}
+
+.buttons{
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+.shop-now{
+    color: white;
+    background-color: #d60a25;
+    font-weight: bold;
+    font-size: x-large;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    margin-right: 5vh;
+    padding-bottom: 0.5vh;
+}
+
+.category{
+    color: #595656;
+    font-weight: 510;
+    padding-bottom: 0.5vh;
+    background-color: white;
+    font-size: x-large;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    margin-right: 5vh;
+    border-color: black;
+}
+
+.icons{
+    padding-top: 2vh;
+}
+
+.logo1{
+    padding-right: 2vh;
+}
+
+.icon-caption{
+    color: #595656;
+}
+
+.product-image{
+    padding-top: 5vh;
+    padding-right: 20vh;
+    width: 60vh;
+    height: 60vh;
+    @media screen and (max-width: 600px) {
+        display: none;}
+}
