@@ -13,8 +13,8 @@ Before you begin, ensure you have the following installed:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/brand-page-react.git
-   cd brand-page-react
+   git clone https://github.com/tushargr0ver/brand-page-with-react.git
+   cd brand-page-with-react
    ```
 2. Install dependencies:
    ```sh
