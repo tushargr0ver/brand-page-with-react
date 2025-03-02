@@ -1,26 +1,51 @@
-# Brand page using react js
+# Brand Page with React
 
-![Sample](https://user-images.githubusercontent.com/50476777/236659089-c7d1675e-4b81-4dcc-8e09-bd09bb444917.png)
-## Disclaimer: This design is sourced from Figma Community and is publicly available.
+A simple brand page built using React.
 
-## Installation and Setup Instructions
-### Prerequisites
+## Prerequisites
 
-    Make sure you have Node.js and npm installed on your machine.
+Before you begin, ensure you have the following installed:
 
-### Steps to Install
+- [Node.js](https://nodejs.org/) (Latest LTS version recommended)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
-    Clone the repository:
+## Installation
 
-git clone https://github.com/your-username/brand-page-with-react.git
-cd brand-page-with-react
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/brand-page-react.git
+   cd brand-page-react
+   ```
+2. Install dependencies:
+   ```sh
+   npm install
+   # or
+   yarn install
+   ```
 
-Install dependencies:
-
-npm install
+## Running the Project
 
 Start the development server:
+```sh
+npm start
+# or
+yarn start
+```
 
-npm run dev
+The application will be available at `http://localhost:3000/`.
 
-This will run the app in development mode. You can access it at http://localhost:5173.
+## Build for Production
+
+To create an optimized production build:
+```sh
+npm run build
+# or
+yarn build
+```
+
+This will generate a `build/` folder with the production-ready files.
+
+## License
+
+This project is licensed under the MIT License.
+
