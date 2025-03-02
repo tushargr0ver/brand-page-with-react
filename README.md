@@ -7,7 +7,7 @@ A simple brand page built using React.
 Before you begin, ensure you have the following installed:
 
 - [Node.js](https://nodejs.org/) (Latest LTS version recommended)
-- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+- [npm](https://www.npmjs.com/)
 
 ## Installation
 
@@ -19,8 +19,6 @@ Before you begin, ensure you have the following installed:
 2. Install dependencies:
    ```sh
    npm install
-   # or
-   yarn install
    ```
 
 ## Running the Project
@@ -28,19 +26,15 @@ Before you begin, ensure you have the following installed:
 Start the development server:
 ```sh
 npm start
-# or
-yarn start
 ```
 
-The application will be available at `http://localhost:3000/`.
+The application will be available at `http://localhost:5173/`.
 
 ## Build for Production
 
 To create an optimized production build:
 ```sh
 npm run build
-# or
-yarn build
 ```
 
 This will generate a `build/` folder with the production-ready files.
